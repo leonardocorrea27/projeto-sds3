@@ -2,8 +2,6 @@ package com.devsuperior.dsvendas.dto;
 
 import java.time.LocalDate;
 
-import org.springframework.boot.autoconfigure.info.ProjectInfoProperties.Git;
-
 import com.devsuperior.dsvendas.entities.Sale;
 
 public class SaleDTO {
