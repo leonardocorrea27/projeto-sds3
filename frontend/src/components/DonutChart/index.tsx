@@ -23,6 +23,7 @@ const DonutChart = () => {
                 setChartData({ labels: myLabels, series: mySeries });
             });
     }, []);
+
     const options = {
         legend: {
             show: true
@@ -38,4 +39,5 @@ const DonutChart = () => {
         />
     );
 }
+
 export default DonutChart;
